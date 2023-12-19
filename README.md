@@ -9,10 +9,10 @@ This repository contains the source code for a simple yet elegant weather applic
 4. Dynamic weather icons and background colors based on current weather conditions.
 
 ## Technologies
-HTML
-CSS
-JavaScript
-OpenWeatherMap API
+1. HTML
+2. CSS
+3. JavaScript
+4. OpenWeatherMap API
 
 ## Setup
 1. Clone the repository to your local machine.
