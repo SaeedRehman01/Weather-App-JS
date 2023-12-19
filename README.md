@@ -25,7 +25,7 @@ This repository contains the source code for a simple yet elegant weather applic
 1. Enter the name of a city in the search box.
 2. Click the search button to view the weather details of the entered city.
 
-## Screenshots
+## Screenshot
 ![Weather APP Screenshot](images/weather-app-screenshot.png)
 
 ## Code Structure
