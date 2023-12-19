@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main container for the weather app -->
+    <div class="card">
+      <!-- Search box section -->
+      <div class="search">
+        <input type="text" placeholder="Enter City Name" spellcheck="false" />
+        <button><img src="images/search.png" /></button>
+      </div>
+      <!-- Error message display section -->
+      <div class="error">
+        <p>Invalid Name: Enter a City Name</p>
+      </div>
+      <!-- Weather display section -->
+      <div class="weather">
+        <img src="images/rain.png" class="weather-icon" />
+        <!-- Temperature, City and Country display -->
+        <h1 class="temp">22<span class="degree">°C</span></h1>
+        <h2 class="city">New York</h2>
+        <h3 class="country">US</h3>
+        <!-- Additional weather details like humidity and wind speed -->
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind.png" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
