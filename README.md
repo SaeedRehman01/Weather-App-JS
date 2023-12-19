@@ -1,4 +1,5 @@
-# Weather-APP-JS
+# weather-app-js to # Weather-App-JS
+# Weather-App-JS
 ## Introduction
 This repository contains the source code for a simple yet elegant weather application. The app allows users to search for weather conditions in any city. It provides real-time weather information including temperature, humidity, and wind speed.
 
